@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寵物贈與契約</title>
+</head>
+<body>
+    <div class="container">
+        <h1>寵物贈與契約內容</h1>
+        <pre id="contractOutput"></pre>
+    </div>
+
+    <script>
+        const contractText = localStorage.getItem("contractText");
+        document.getElementById("contractOutput").textContent = contractText;
+    </script>
+</body>
+</html>
